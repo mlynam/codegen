@@ -1,0 +1,12 @@
+
+# Editors
+.vscode/
+.vs/
+
+# Editor Artifacts
+project.lock.json
+
+# Build Results
+bin/
+dist/
+obj/

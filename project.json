@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true,
+    "compile": {
+      "include": [
+        "src/**/*.cs"
+      ],
+      "exclude": [
+        "src/**/*.spec.cs"
+      ]
+    }
+  },
+  "dependencies": {},
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      },
+      "imports": "dnxcore50"
+    }
+  }
+  ,
+  "configurations": {
+    "Test": {
+      "buildOptions": {
+        "compile": {
+          "include": [
+            "src/**/*.spec.cs"
+          ]
+        }
+      }
+    }
+  }
+}

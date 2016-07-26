@@ -1,5 +1,6 @@
 {
-  "version": "1.0.0-*",
+  "version": "1.0.0-alpha.0",
+  "title": "dotnet-tools-cli",
   "buildOptions": {
     "debugType": "portable",
     "emitEntryPoint": true,

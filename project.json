@@ -14,6 +14,16 @@
     }
   },
   "dependencies": {},
+  "authors": [
+    "mlynam@iteamnm.com"
+  ],
+  "packOptions": {
+    "licenseUrl": "https://github.com/mlynam/dotnet-tools-cli/blob/master/LICENSE",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mlynam/dotnet-tools-cli"
+    }
+  },
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {

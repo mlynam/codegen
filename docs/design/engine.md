@@ -11,7 +11,7 @@ When the engine is invoked, it should attempt to discover plugin commands from a
 
 ```
 .
-├── dnt.exe
+├── codegen.exe
 └── plugins/
     ├── otter/
     │   ├── otter.json
@@ -56,7 +56,7 @@ The command line engine will compose args into a single path of operations withi
 This JSON represents a tree of commands.  The user could ask the tool to generate a new class by using 
 
 ```
-> dnt generate class
+> codegen generate class
 ``` 
 
 and the `generate.class` command should be invoked. Arguments defined at ancestor levels should also be overridable while the command is being built.

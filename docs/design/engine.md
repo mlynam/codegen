@@ -12,12 +12,12 @@ When the engine is invoked, it should attempt to discover plugin commands from a
 ```
 .
 ├── dnt.exe
-└── plugins
-    ├── otter
+└── plugins/
+    ├── otter/
     │   ├── otter.json
-    │   ├── bin
-    │   └── data
-    └── ceramic
+    │   ├── assembly.dll
+    │   └── data/
+    └── ceramic/
 ``` 
 
 ## Command Tree Executor

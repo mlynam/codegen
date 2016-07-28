@@ -1,6 +1,6 @@
 {
   "version": "1.0.0-alpha.0",
-  "title": "dotnet-tools-cli",
+  "title": "codegen",
   "buildOptions": {
     "debugType": "portable",
     "emitEntryPoint": true,
@@ -18,10 +18,10 @@
     "mlynam@iteamnm.com"
   ],
   "packOptions": {
-    "licenseUrl": "https://github.com/mlynam/dotnet-tools-cli/blob/master/LICENSE",
+    "licenseUrl": "https://github.com/mlynam/codegen/blob/master/LICENSE",
     "repository": {
       "type": "git",
-      "url": "https://github.com/mlynam/dotnet-tools-cli"
+      "url": "https://github.com/mlynam/codegen"
     }
   },
   "frameworks": {

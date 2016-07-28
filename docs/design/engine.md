@@ -26,30 +26,29 @@ The command line engine will compose args into a single path of operations withi
 ```json
 {
     "commands": [
-        new: {
-            "displayName": "new",
+        {
+            "name": "new",
             "descritpion": "Create a new project",
             "args": [ "-d | --directory", "-n | --name" ],
         },
-        generate: {
-            "displayName": "generate",
+        {
+            "name": "generate",
             "aliases": [ "g", "gen" ],
             "args": [ "-v | --verbose", "-nt | --no-test" ],
             "commands": [
-                class: {
-                    "displayName": "class",
+                {
+                    "name": "class",
                     "aliases": [ "c" ],
                     "args": [ "-nt | --no-test" ],
-                    "commands": [ ... ]
+                    "commands": []
                 },
-                service: {
-                    "displayName": "service",
+                {
+                    "name": "service",
                     "aliases": [ "s" ],
-                    commands: [ ... ]                    
+                    "commands": []                    
                 }
             ]
-        },
-        ...
+        }
     ]
 }
 ```
